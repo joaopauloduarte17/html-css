@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(167, 165, 165);
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+        }
+
+        header > h1{
+            text-align: center;
+        }
+
+        nav > a{
+            text-decoration: none;
+            padding: 30px;
+            color: black;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+
+        nav > a:last-child{
+            float: right;
+            background-color: black;
+            color: white;
+            padding: 0px 5px 0px 5px;
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        main > section > article > h2{
+            padding: 5px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        main > section{
+            background-color: lightgray;
+            width: 600px;
+            height: 350px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        main > section > article > p{
+            padding-left: 5px;
+
+        }
+
+        main > section > article > aside{
+            text-align: right;
+            padding-right: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin-top: 10px;
+
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contato</a>
+            <a href="#">Noticias</a>
+            <a href="#">Procurar</a>
+            <a href="#">Login/Cadastro</a>
+        </nav>
+    </header>
+    <main>
+        <section id="conteudo">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo deserunt iure laudantium! Obcaecati error eligendi illum temporibus asperiores cumque vel, nisi commodi cum officia, esse iste debitis, aliquid quaerat itaque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, tenetur cum architecto accusamus nesciunt, libero, sit sint consectetur debitis modi fuga ducimus cumque voluptatem nobis nulla voluptas sed vitae. Qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quod adipisci dolor dolorum facere repellendus. Debitis voluptatum magni necessitatibus fugiat repellat quaerat fuga, quia voluptas culpa atque doloremque ipsum cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iste quaerat dolorem eligendi porro, vero eius asperiores quibusdam excepturi accusamus perferendis, sunt odit sed inventore laborum voluptatum, earum delectus id?</p>
+                <aside>
+                    <p>Atigo escrito por João Bezerra</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site desenvolvido por João Paulo Duarte</p>
+    </footer>
+</body>
+</html>
