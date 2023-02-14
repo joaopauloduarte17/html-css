@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        div#responsivel{
+            position: relative;
+            padding-bottom: 320px;
+            align-items: center;
+        }
+
+        iframe#resp{
+            position: absolute;
+
+            left: 5%;
+            top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdos dentro de iframes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure delectus excepturi repudiandae non explicabo? Nostrum tenetur cumque quo illum mollitia dolore odio fugit doloremque modi in quisquam similique, suscipit praesentium!</p>
+    <h2>Vídeos</h2>
+
+    <div id="responsivel"><iframe width="560" height="315" src="https://www.youtube.com/embed/rtdHRE2bHYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="resp"></iframe></div>
+
+    <h2>Mapas do Google</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118449.62616595332!2d-49.64944194380362!3d-21.91336631452957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be4c2025d3369d%3A0x24fa98b48d4ccb9b!2sGuarant%C3%A3%20-%20SP%2C%2016570-000!5e0!3m2!1spt-BR!2sbr!4v1676334746911!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Mapas do waze</h2>
+
+    <iframe src="https://embed.waze.com/iframe?zoom=17&lat=-21.992932&lon=-49.454704&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+
+    <h2>Google Documents</h2>
+    <p>Não consegui incorporar do Google Docs</p>
+</body>
+</html>
